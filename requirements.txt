@@ -1,6 +1,9 @@
 # Core app framework
 streamlit==1.39.0
 
+python-3.11
+
+
 # Data handling
 pandas==2.2.2
 numpy==1.26.4
