@@ -21,4 +21,3 @@ matplotlib==3.9.2
 
 # For Streamlit Cloud compatibility
 altair==5.3.0
-protobuf==5.28.2
