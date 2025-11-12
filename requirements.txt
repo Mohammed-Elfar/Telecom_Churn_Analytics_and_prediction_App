@@ -15,4 +15,6 @@ imbalanced-learn==0.12.3
 # For data preprocessing / encoding if needed
 category-encoders==2.6.3
 
+requests==2.31.0
+
 
