@@ -10,7 +10,6 @@ plotly==5.24.1
 
 # Machine Learning
 scikit-learn==1.5.2
-joblib==1.4.2
 imbalanced-learn==0.12.3
 
 # For data preprocessing / encoding if needed
