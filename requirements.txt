@@ -1,7 +1,7 @@
 # Core app framework
 streamlit==1.39.0
 
-python-3.11
+python==3.11
 
 
 # Data handling
