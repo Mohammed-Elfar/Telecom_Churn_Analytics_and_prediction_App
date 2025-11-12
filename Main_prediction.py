@@ -6,7 +6,7 @@ import joblib
 st.set_page_config(page_title="Telecom Churn Prediction", layout="wide")
 st.title(" TELECOM CUSTOMER CHURN PREDICTION APP")
 
-MODEL_PATH = "/Users/mohammedmahmood/Desktop/Telecom_Churn_App/model/Telecome_Churn_Prediction.joblib"
+MODEL_PATH = "model/Telecome_Churn_Prediction.joblib"
 
 # Load trained model
 model = joblib.load(MODEL_PATH)
