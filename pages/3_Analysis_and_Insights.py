@@ -8,7 +8,7 @@ st.title("📊 Telecom Churn Analysis & Insights")
 
 # ================== LOAD DATA ==================
 @st.cache_data
-def load_data(train_path="/Users/mohammedmahmood/Desktop/Telecom_Churn_App/pages/data/churn-bigml-80.csv", test_path="/Users/mohammedmahmood/Desktop/Telecom_Churn_App/pages/data/churn-bigml-20.csv"):
+def load_data(train_path="data/churn-bigml-80.csv", test_path="data/churn-bigml-20.csv"):
     train_df = pd.read_csv(train_path)
     test_df = pd.read_csv(test_path)
     df = pd.concat([train_df, test_df], ignore_index=True)
