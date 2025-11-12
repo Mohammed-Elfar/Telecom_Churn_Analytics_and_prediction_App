@@ -7,8 +7,8 @@ st.markdown("<p style='color:#555;'>Quick overview of the training and testing d
 st.write("---")
 
 # ---------- LOAD DATA ----------
-train_path = "pages/data/churn-bigml-80.csv"
-test_path = "pages/data/churn-bigml-20.csv"
+train_path = "data/churn-bigml-80.csv"
+test_path = "data/churn-bigml-20.csv"
 
 @st.cache_data
 def load_data(train_path, test_path):
