@@ -1,20 +1,9 @@
-# Core app framework
-streamlit
-
-# Data handling
-pandas
-numpy
-
-# Visualization
-plotly
-
-# Machine Learning
-scikit-learn
-imbalanced-learn
-
-# For data preprocessing / encoding if needed
-category-encoders
-
-joblib
-
-
+streamlit==1.39.0
+pandas==2.2.2
+numpy==1.26.4
+plotly==5.24.1
+scikit-learn==1.5.2
+joblib==1.4.2
+imbalanced-learn==0.12.3
+category-encoders==2.6.3
+requests==2.31.0
