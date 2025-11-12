@@ -1,9 +1,6 @@
 # Core app framework
 streamlit==1.39.0
 
-python==3.11
-
-
 # Data handling
 pandas==2.2.2
 numpy==1.26.4
@@ -19,8 +16,4 @@ imbalanced-learn==0.12.3
 # For data preprocessing / encoding if needed
 category-encoders==2.6.3
 
-# Optional but useful
-matplotlib==3.9.2
 
-# For Streamlit Cloud compatibility
-altair==5.3.0
