@@ -1,5 +1,5 @@
-##### Note
-**Interactive notebook & full analysis (plots + code) are hosted on Kaggle.**  
+## Note
+**For Interactive notebook & full analysis (plots + code) are hosted on Kaggle.**  
 Open the live Kaggle notebook to see interactive Plotly charts and run cells:
 
 🔗 **Kaggle Notebook (interactive):**  
