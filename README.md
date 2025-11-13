@@ -1,6 +1,15 @@
-# Telecom Churn Prediction
+##### Note
+**Interactive notebook & full analysis (plots + code) are hosted on Kaggle.**  
+Open the live Kaggle notebook to see interactive Plotly charts and run cells:
 
-The goal is to predict whether a telecom customer will churn (stop using the service) based on features like usage patterns, account details, and customer service interactions. 
+🔗 **Kaggle Notebook (interactive):**  
+https://www.kaggle.com/code/mohammadelfar/telecome-churn-prediction-97-acc-97-precision
+
+
+# Telecom Churn Prediction 
+
+**This application is an end-to-end Streamlit project for predicting customer churn in a telecom company.
+It includes real-time prediction, full data exploration, feature explanations, and insights to support business decisions.**
 
 **link of the app** : https://telecomchurnapp-bcn7eihwj9yz9dws8r57w2.streamlit.app/
 
@@ -28,4 +37,50 @@ The goal is to predict whether a telecom customer will churn (stop using the ser
 
 11. **Deployment** — Deployed the final model using **Streamlit** for real-time churn prediction.
 
+
+## App Structure
+
+## 1. **Prediction Tab**
+Provides real-time churn predictions for new customers.
+Users enter customer information and receive a churn prediction with probability.
+
+## 2. **Data Info & Feature Explanation Tab**
+Includes:
+- Dataset structure
+- Column descriptions
+- Feature definitions
+
+## 3. **Analysis & Insights Tab**
+Displays:
+- Bivariate and multivariate analysis
+- Visual trends explaining churn behavior
+- Business recommendations
+
+## 4. **About Project & Steps Tab**
+Summarizes the entire workflow:
+- Data exploration
+- Cleaning and feature engineering
+- Model training and evaluation
+- Deployment using Streamlit
+
+---
+
+## Key Insights and Recommendations
+
+## 1. **International Plan Users Have High Churn**
+Customers with an International Plan show a churn rate of about 42%.
+**Recommendation:** Review pricing and improve service quality.
+
+## 2. **High Number of Customer Service Calls Predicts Churn**
+Customers making three or more customer service calls are highly likely to churn.
+**Recommendation:** Flag these customers early for proactive retention.
+
+## 3. **Voice Mail Plan Reduces Churn**
+Voice Mail Plan users have significantly lower churn.
+**Recommendation:** Promote service bundles and upsell optional plans.
+
+## 4. **Long-Term Customers Without Extra Plans Still Churn**
+Long-tenure customers without additional services still show churn risk.
+**Recommendation:** Offer loyalty programs and retention incentives.
+"""
 
